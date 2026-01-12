@@ -1,6 +1,6 @@
 # Autonomous Zumo Robot Navigation
 
-**Authors:** Amir Amber & Shay Saraf  
+**Authors:** Amir Amber and Shay Saraf  
 **Hardware:** Pololu Zumo 32U4  
 
 ## 📖 Project Overview
