@@ -24,13 +24,12 @@ The robot logic is divided into 5 distinct stages managed by the FSM:
 3.  **Stage 3: Object Manipulation (Hybrid)**
     * **Detection:** Uses proximity sensors (Closed-Loop).
     * **Action:** Executes a timed "Push and Reverse" maneuver (Open-Loop) to clear obstacles from the path.
-    * **Bonus:** Plays specific sounds upon detection.
 
 4.  **Stage 4: Search & Finish**
     * Resumes line following after obstacle clearance.
     * Detects the final stopping point using proximity sensors.
 
-5.  **Stage 5: Return to Home (Bonus)**
+5.  **Stage 5: Return to Home**
     * Executes a blind ~140-degree turn.
     * Navigates the course in reverse to return to the start coordinates $(0,0)$.
 
